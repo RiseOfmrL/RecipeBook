@@ -1,0 +1,109 @@
+#title {
+
+    font-size:60px;
+    font-weight:800;
+    color: #0B6809;
+    display:flex;
+    justify-content:center;
+    align-self:center;
+    width:1300px;
+    border-bottom:10px dashed #634005;
+
+
+
+}
+
+.wholepage {
+
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content:center;
+
+
+
+
+}
+
+body {
+
+    background-color:#E2B059;
+
+
+
+
+}
+
+.navbar {
+
+    display:flex;
+    gap:10px;
+    justify-content:center;
+
+}
+
+
+.navitem {
+
+
+    display:flex;
+    padding:10px;
+    border:4px dotted #634005;
+    border-bottom:4px dashed #634005;
+    color:#0B6809;
+    
+
+
+}
+
+.aboutsec {
+
+    border:5px dotted #634005;
+    border-bottom:5px dashed #634005;
+    width:800px;
+    display:flex;
+    flex-direction:column;
+    align-self:center;
+    justify-content:center;
+
+
+
+}
+
+
+.about {
+
+    font-weight:700;
+    font-size:25px;
+    color:#0B6809;
+    display:flex;
+    padding:5px;
+
+
+
+}
+
+
+
+.aboutt {
+
+    font-size:20px;
+    color:#0B6809;
+    display:flex;
+    margin-top:0px;
+    padding:5px;
+    text-align:center;
+
+
+}
+
+.links {
+
+
+
+    text-decoration: none;
+
+
+
+}
