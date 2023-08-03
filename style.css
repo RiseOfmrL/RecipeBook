@@ -20,6 +20,7 @@
     flex-direction:column;
     justify-content:center;
     align-content:center;
+    gap:20px;
 
 
 
@@ -103,6 +104,80 @@ body {
 
 
     text-decoration: none;
+
+
+
+}
+
+a {
+
+    color: #0B6809;
+
+
+
+}
+
+a:hover {
+
+    color:#634005;
+
+
+}
+
+.imagerow {
+
+display:flex;
+gap:20px;
+justify-content:center;
+
+
+
+
+}
+
+.imageset {
+
+    display:flex;
+    flex-direction:column;
+
+
+}
+
+.image {
+
+display:flex;
+width:400px;
+height:400px;
+
+
+
+}
+
+
+.imgdesc {
+
+
+display:flex;
+width:400px;
+text-align:center;
+
+
+
+}
+
+.rolls {
+
+    display:flex;
+    gap:20px;
+
+    
+}
+
+.imgdesccom {
+
+display:flex;
+width:800px;
+text-align:center;
 
 
 
