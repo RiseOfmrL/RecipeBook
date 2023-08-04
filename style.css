@@ -32,7 +32,6 @@ body {
     background-color:#E2B059;
 
 
-    color:#cf993a
 
 }
 
@@ -189,7 +188,57 @@ color:#0B6809;
 display:flex;
 width:800px;
 text-align:center;
-color:#0B6809
+color:#0B6809;
+
+
+
+}
+
+.bottombar {
+
+display:flex;
+background-color: #d69c38;
+align-content:center;
+justify-content:center;
+border:5px dashed #a44d00;
+
+}
+
+.leftsidebottom {
+
+    display:flex;
+    width:70%;
+    flex-direction:column;
+    align-content:center;
+    justify-content:center;
+
+
+}
+
+.bottombarText {
+
+color:#0B6809;
+display:flex;
+
+
+}
+
+
+.rightsidebottom {
+
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    justify-content:center;
+
+
+}
+
+
+.listitem {
+
+color:#0B6809;
+
 
 
 
