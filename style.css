@@ -43,7 +43,7 @@ body {
     position: sticky;
     top: 0;
     border: 5px dashed #a44d00;
-    background-color: #E2B059 ;
+    background-color: #d69c38 ;
     flex-direction:column;
 
 
@@ -265,7 +265,7 @@ color:#0B6809;
 .select {
 
     color:#0B6809;
-    background-color:#d69c38 ;
+    background-color:#E2B059 ;
     padding:10px;
     font-size:15px;
     margin-bottom:10px;
@@ -340,6 +340,8 @@ color:#0B6809;
     flex-direction:column;
     border:5px dashed #a44d00;
     margin:20px;
+    width:1200px;
+    align-self:center;
 
 }
 
@@ -380,6 +382,8 @@ flex-direction:column;
 border:5px dashed #a44d00;
 margin:20px;
 padding:10px;
+width:1200px;
+align-self:center;
 
 
 }
