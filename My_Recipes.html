@@ -16,16 +16,28 @@
     <div class="wholepage">
 
         <div class="navbar">
-
-            <!--That's this page-->
-            <p class="navitem"><a class="links" href="index.html">About Me</a></p>
-            <p class="navitem"><a class="links" href="My_Recipes.html">My Recipes</a></p>
-            <!--I'll have a little selector of all the recipes and then when you select one them it'll change everything about the page. I'd like to have it change the background
-            colors and text colors too to change the style to fit the person.-->
-            <p class="navitem"><a class="links" href="Fr_Recipes.html">Friends Recipes</a></p>
-            <!--This'll be a page that goes into the people who've added things to this book as well as people who have influenced my cooking style and gave me inspiration to cook 
-                in general.-->
-            <p class="navitem"><a class=links href="thanks.html">Special Thanks</a></p>
+            <div class="navbartop">
+                <!--That's this page-->
+                <p class="navitem"><a class="links" href="index.html">About Me</a></p>
+                <p class="navitem"><a class="links" href="My_Recipes.html">My Recipes</a></p>
+                <!--I'll have a little selector of all the recipes and then when you select one them it'll change everything about the page. I'd like to have it change the background
+                colors and text colors too to change the style to fit the person.-->
+                <p class="navitem"><a class="links" href="Fr_Recipes.html">Friends Recipes</a></p>
+                <!--This'll be a page that goes into the people who've added things to this book as well as people who have influenced my cooking style and gave me inspiration to cook 
+                    in general.-->
+                <p class="navitem"><a class=links href="thanks.html">Special Thanks</a></p>
+            </div>
+                <div class="selector">
+                    <select class="select">
+                        <option value="None">Select A Recipe</option>
+                        <option value="WafflePancake">ButterMilk Waffle/Pancake</option>
+        
+        
+                    </select>
+        
+    
+            </div>
+    
 
         </div>
 
@@ -40,9 +52,134 @@
         second one will take longer and I'm not sure how to do the linking thing easily for the first page.-->
 
 
+        <!-- So I decided that I'm going to use the display:none command in css. That will change the formatting on things so I'm able
+        to have the recipe that people select on the top while the rest is nonexistant. and I'll be able to figure out how to
+        link it to a certain part of the page if I keep it so on the first screen it shows all of the recipes on there. That way I
+        can make a table of contents/have links on the main page to more easily get access to everything.-->
 
-        
-        
+        <div id="ButterMilkPancakeWaffle">
+            
+            <p class="name">Buttermilk Pancakes or Waffles</p>
+            <div class="imgs">
+
+                <img class="recipeimg" src="Recipes/20230725_183100.jpg">
+                <img class="recipeimg" src="Recipes/20220907_190540.jpg">
+
+            </div>
+            <p class="RecipeDescription">This is my favorite pancake and waffle batter. Ive found that you're able to
+                use this same recipe for either pancakes or waffles. My favorite way to enjoy this is with some blueberries in the
+                batter. They are perfect for breakfast and generally pretty quick to make. If you make the waffles you can also
+                enjoy them with some fried chicken to have with your waffles.
+            </p>
+
+            <div class="ingredientssec">
+
+                <p class="ingredientstitle">Ingredients:</p>
+                <div class="ingredients">
+                    <ul class="IngredList">
+                        <li>2 Cups of AP Flour</li>
+                        <li>2 Tablespoons/30g of White Sugar</li>
+                        <li>2 Teaspoons of Baking Powder</li>
+                    </ul>
+                    <ul class="IngredList">
+
+                        <li>1 Teaspoon of Baking Soda</li>
+                        <li>1/2 Teaspoon of Salt</li>
+                        <li>2 Cups of Buttermilk</li>
+                    </ul>
+
+                    <ul class="IngredList">
+
+                        <li>1/3 Cup of Melted Butter</li>
+                        <li>2 Eggs</li>
+                        <li>1 Teaspoon of Vanilla Extract</li>
+
+
+                    </ul>
+                </div>
+            </div>
+                <div class="instructions">
+
+                    <p class="instrtitle">Instructions</p>
+                    <div class="instructionsldiv">
+
+                        <ol class="instructionsList">
+
+                            <li>First take out 2 bowls,one large and one medium. In the medium sized bowl put in your dry
+                                ingredients (flour,baking soda, salt, sugar). Then whisk them until combined. 
+                            </li>
+                            <li>Second do the same with the wet ingredients (Buttermilk,Melted Butter, Eggs, and Vanilla).
+                                And then mix them all thoroughly.
+                            </li>
+                            <li>Pour all of the dry ingredients into your wet ingredients and whisk together lightly until
+                                all the flour is mixed in. You want it to be mixed, but make sure not to mix too much.
+                                Remember that lumps are ok. Mixing less gives you fluffier pancakes or waffles.
+                            </li>
+                            <li>If you're making waffles, I'd use some pam or something simular to grease up the 
+                                waffle iron so there isn't sticking. Then simply pour the batter in evenly. Also most
+                                waffle irons have a timer set up, but if it doesn't then I suggest to cook it for around
+                                3-5 minutes. A trick is to wait for it to stop steaming though you can do it slighly
+                                earlier if you like less donw waffles.
+                            </li>
+                            <li>If you're making pancakes I'd start by heating up and greasing the griddle or pan that
+                                you're using to a low-medium heat. I'd recommend using a 1/4 cup to pour your pancakes
+                                so they are all around the same size. After you pour them in don't touch the pancakes
+                                until you see the sides start to pull in and solidify and you see bubbles start to form in
+                                the middle of the pancake. Then flip them and wait for about a minute or two or until both
+                                sides are golden brown. Flip more if needed.
+
+
+
+                            </li>
+
+
+
+
+                        </ol>
+
+
+
+
+                    </div>
+
+
+
+                </div>
+
+            
+
+
+        </div>
+
+         <!--This is the bottom bar with information-->
+         <div class="bottombar">
+
+            <div class="leftsidebottom">
+                <p class="bottombarText">This website was made by Paul and his friend's recipes. It includes recipes
+                    that we find to be the best or ones that we've made ourselves. We hope you enjoy.
+                </p>
+                <p class="bottombarText">Thanks for looking at our recipes and know that you're amazing and we all wish
+                    you a good day.
+                </p>
+            </div>
+
+            <div class="rightsidebottom">
+
+                <p class="bottombarText">Contributors/Special People</p>
+                <ul class="bottomlist">
+
+                    <li class="listitem">My Dad</li>
+                    <li class="listitem">My Sister</li>
+                    <li class="listitem">Snoopy</li>
+                    <li class="listitem">Suncore</li>
+                    <li class="listitem">My Mom and Paul</li>
+
+                </ul>
+
+
+
+            </div>
+        </div>
     </div>
 
 

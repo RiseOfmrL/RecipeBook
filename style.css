@@ -44,6 +44,7 @@ body {
     top: 0;
     border: 5px dashed #a44d00;
     background-color: #E2B059 ;
+    flex-direction:column;
 
 
 }
@@ -241,5 +242,175 @@ color:#0B6809;
 
 
 
+
+}
+
+.navbartop {
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+
+}
+
+.selector {
+
+    display:flex;
+    justify-content:center;
+   
+
+
+}
+
+.select {
+
+    color:#0B6809;
+    background-color:#d69c38 ;
+    padding:10px;
+    font-size:15px;
+    margin-bottom:10px;
+    text-align:center;
+    border:2px dashed #634005;
+
+}
+
+#ButterMilkPancakeWaffle {
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content: center;
+    border:5px dashed #634005;
+
+
+
+}
+
+.name {
+
+    display:flex;
+    align-self:center;
+    font-size:50px;
+    font-weight:800;
+    color:#a44d00;
+    border-bottom:5px dashed #634005;
+
+
+}
+
+.imgs {
+
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+
+
+}
+
+.recipeimg {
+
+
+    display:flex;
+    width:500px;
+    height:500px;
+
+
+}
+
+.RecipeDescription {
+
+
+    display:flex;
+    width:1000px;
+    text-align: center;
+    color:#0B6809;
+    font-size:20px;
+    align-self:center;
+    border:5px dotted #634005;
+    border-bottom:5px dashed #634005;
+    padding:10px;
+
+
+}
+
+.ingredientssec {
+
+    display:flex;
+    flex-direction:column;
+    border:5px dashed #a44d00;
+    margin:20px;
+
+}
+
+.ingredientstitle {
+
+    display:flex;
+    justify-content:center;
+    align-self:center;
+    color:#0B6809;
+    border-bottom:5px dashed#634005;
+    font-size: 30px;
+
+}
+
+.ingredients {
+
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    
+
+}
+
+.IngredList {
+
+    display:flex;
+    flex-direction:column;
+    color:#0B6809;
+    font-size:20px;
+    
+
+}
+
+.instructions {
+
+display:flex;
+flex-direction:column;
+border:5px dashed #a44d00;
+margin:20px;
+padding:10px;
+
+
+}
+
+.instrtitle {
+
+    display:flex;
+    justify-content:center;
+    align-self:center;
+    color:#0B6809;
+    border-bottom:5px dashed#634005;
+    font-size: 30px;
+
+
+
+}
+
+.instructionsldiv {
+
+    display:flex;
+
+
+}
+
+
+.instructionsList {
+
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    font-size:20px;
+    color:#0B6809;
 
 }
