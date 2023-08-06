@@ -418,3 +418,40 @@ align-self:center;
     color:#0B6809;
 
 }
+
+#ButterMilkReplacement {
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content: center;
+    border:5px dashed #634005;
+
+
+
+
+}
+
+
+.oneimg {
+
+    display:flex;
+    width:600px;
+    height:600px;
+
+
+
+
+}
+
+.IngredList2 {
+
+    display:flex;
+    color:#0B6809;
+    font-size:20px;
+    align-content:center;
+    justify-content: center;;
+    
+
+
+}
