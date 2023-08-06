@@ -456,3 +456,15 @@ align-self:center;
 
 
 }
+
+#FrenchToast {
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content: center;
+    border:5px dashed #634005;
+
+
+
+}
