@@ -34,6 +34,7 @@
                         <option value="WafflePancake">ButterMilk Waffle/Pancake</option>
                         <option value="ButtermilkReplacement">Buttermilk Replacement</option>
                         <option value="FrenchToast">French Toast</option>
+                        <option value="CinnamonRolls">Cinnamon Rolls</option>
 
 
 
@@ -458,9 +459,10 @@
     
                         <ul class="IngredList">
     
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>1/2 cup brown sugar(99g)</li>
+                            <li>1 tablespoon ground cinnamon(extra if you want)</li>
+                            <li>Pinch of salt</li>
+                            <li>2 Tablespoons unsalted butter, melted and cooled</li>
     
                         </ul>
     
@@ -477,10 +479,18 @@
         
                             <ul class="IngredList">
         
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                                <li>8 Tablespoons ,1 Stick, of unsalted butter room temp</li>
+                                <li>4 ounces cream cheese, room temp</li>
+                                <li>1 teaspoon vanilla extract</li>
         
+                            </ul>
+
+                            <ul class="IngredList">
+
+                                <li>1/4 teaspoon salt</li>
+                                <li>1 cup confectioners'(powdered) sugar</li>
+
+
                             </ul>
         
         
@@ -496,8 +506,8 @@
     
                             <ol class="instructionsList">
     
-                                <li></li>
-                                <li></li>
+                                <li>In a small bowl combine the eggs, milk and honey.</li>
+                                <li>If you want to use a stand mixer than in the bowl that goes with that.</li>
     
     
                             </ol>
@@ -572,6 +582,9 @@
                     document.getElementById("ButterMilkPancakeWaffle").style.display = 
                     "flex";
 
+                    document.getElementById("CinnamonRolls").style.display = 
+                    "none"
+
                 }
 
                 else if (choice==="BreakFast") {
@@ -584,7 +597,9 @@
 
                     document.getElementById("ButterMilkReplacement").style.display = 
                     "flex";
-
+                    
+                    document.getElementById("CinnamonRolls").style.display = 
+                    "flex"
 
 
 
@@ -602,7 +617,8 @@
                     document.getElementById("ButterMilkReplacement").style.display = 
                     "flex";
 
-
+                    document.getElementById("CinnamonRolls").style.display = 
+                    "flex"
 
 
                 }
@@ -618,7 +634,8 @@
                     document.getElementById("FrenchToast").style.display = 
                     "none";
 
-
+                    document.getElementById("CinnamonRolls").style.display = 
+                    "none"
 
                 }
 
@@ -634,6 +651,27 @@
 
                     document.getElementById("FrenchToast").style.display = 
                     "flex";
+
+                    document.getElementById("CinnamonRolls").style.display = 
+                    "none"
+
+
+                }
+
+                else if (choice==="CinnamonRolls") {
+
+
+                    document.getElementById("ButterMilkPancakeWaffle").style.display = 
+                    "none";
+
+                    document.getElementById("ButterMilkReplacement").style.display = 
+                    "none";
+
+                    document.getElementById("FrenchToast").style.display = 
+                    "none";
+
+                    document.getElementById("CinnamonRolls").style.display = 
+                    "flex"
 
 
 
