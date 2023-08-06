@@ -30,9 +30,13 @@
                 <div class="selector">
                     <select class="select">
                         <option value="None">Select A Recipe</option>
+                        <option value="BreakFast">Breakfast Foods</option>
                         <option value="WafflePancake">ButterMilk Waffle/Pancake</option>
                         <option value="ButtermilkReplacement">Buttermilk Replacement</option>
-        
+                        <option value="FrenchToast">French Toast</option>
+
+
+
                     </select>
         
     
@@ -434,7 +438,109 @@
 
 
 
+    <script>
 
+            const select = document.querySelector("select");
+            const para = document.querySelector("p")
+            const img = document.querySelector("image")
+
+            select.addEventListener("change" , setRecipe);
+
+            function setRecipe () {
+
+                const choice = select.value;
+
+
+                if (choice==="WafflePancake") {
+
+                    document.getElementById("FrenchToast").style.display = 
+                    "none";
+
+                    document.getElementById("ButterMilkReplacement").style.display = 
+                    "none";
+
+                    document.getElementById("ButterMilkPancakeWaffle").style.display = 
+                    "flex";
+
+                }
+
+                else if (choice==="BreakFast") {
+
+                    document.getElementById("ButterMilkPancakeWaffle").style.display = 
+                    "flex";
+
+                    document.getElementById("FrenchToast").style.display =
+                    "flex";
+
+                    document.getElementById("ButterMilkReplacement").style.display = 
+                    "flex";
+
+
+
+
+
+                }
+
+                else if (choice==="None") {
+
+                    document.getElementById("ButterMilkPancakeWaffle").style.display = 
+                    "flex";
+
+                    document.getElementById("FrenchToast").style.display =
+                    "flex";
+
+                    document.getElementById("ButterMilkReplacement").style.display = 
+                    "flex";
+
+
+
+
+                }
+
+                else if (choice==="ButtermilkReplacement") {
+
+                    document.getElementById("ButterMilkPancakeWaffle").style.display = 
+                    "none";
+
+                    document.getElementById("ButterMilkReplacement").style.display = 
+                    "flex";
+
+                    document.getElementById("FrenchToast").style.display = 
+                    "none";
+
+
+
+                }
+
+
+                else if (choice==="FrenchToast") {
+
+
+                    document.getElementById("ButterMilkPancakeWaffle").style.display = 
+                    "none";
+
+                    document.getElementById("ButterMilkReplacement").style.display = 
+                    "none";
+
+                    document.getElementById("FrenchToast").style.display = 
+                    "flex";
+
+
+
+
+                }
+
+
+
+
+
+            }
+
+
+
+
+
+    </script>
 
 
 
