@@ -6,7 +6,7 @@
     display:flex;
     justify-content:center;
     align-self:center;
-    width:1300px;
+    width:60%;
     border-bottom:10px dashed #634005;
 
 
@@ -30,7 +30,7 @@
 body {
 
     background-color:#E2B059;
-    width:100%;
+    
 
 
 
@@ -505,6 +505,37 @@ align-self:center;
 
 
 
+
+
+}
+
+#CloverRolls {
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content: center;
+    border:5px dashed #634005;
+
+
+
+
+}
+
+#Waffles {
+
+
+    
+
+
+
+}
+
+
+#FrenchToast {
+
+
+    
 
 
 }

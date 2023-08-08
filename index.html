@@ -7,8 +7,7 @@
 <title>Homepage</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -58,7 +57,7 @@
 
         <div class="imagerow">
 
-            <div class="imageset">
+            <div class="imageset" id="Waffles">
 
                 <!--This is the picture set for the waffles-->
                 <img class="image" src="Recipes/20220907_190540.jpg">
@@ -67,7 +66,7 @@
 
             </div>
 
-            <div class="imageset">
+            <div class="imageset" id="FrenchToast">
                 <!--This is the picture set for the french toast-->
                 <img class="image" src="Recipes/20220930_171443.jpg">
                 <p class="imgdesc">This is my famous french toast made of some homemade oatmeal bread. You'll find it in
@@ -257,11 +256,20 @@
 
 
 <script>
+//
+let w = window.innerWidth;
+let h = window.innerHeight;
+
+    if (w <= 1200 ) {
+
+
+        document.getElementById("Waffles").style.display = 
+                        "none";
 
 
 
-
-
+    }
+//
 
 
 
