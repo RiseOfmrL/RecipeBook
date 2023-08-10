@@ -29,16 +29,16 @@
             </div>
                 <div class="selector">
                     <select class="select">
-                        <option value="None">Select A Recipe</option>
-                        <option value="BreakFast">Breakfast Foods</option>
+                        <option style="color:black" value="None">Select A Recipe</option>
+                        <option style="color:black" value="BreakFast">Breakfast Foods</option>
                         <option value="WafflePancake">ButterMilk Waffle/Pancake</option>
                         <option value="ButtermilkReplacement">Buttermilk Replacement</option>
                         <option value="FrenchToast">French Toast</option>
                         <option value="CinnamonRolls">Cinnamon Rolls</option>
-                        <option value="BakingSweets">Baking and Sweets</option>
+                        <option style="color:black" value="BakingSweets">Baking and Sweets</option>
                         <option value="GarlicSwirlRolls">Garlic Swirl Rolls</option>
                         <option value="OatmealBread">Paul's Family Oatmeal Bread</option>
-
+                        <option vlaue="CloverRollsval">Great Grandma's Clover Rolls</option>
 
                     </select>
         
@@ -979,6 +979,8 @@
 
                     document.getElementById("OatmealBread").style.display = 
                         "none";
+                    document.getElementById("CloverRolls").style.display = 
+                        "none";
 
                 }
 
@@ -1000,6 +1002,8 @@
                         "none";
 
                     document.getElementById("OatmealBread").style.display = 
+                        "none";
+                    document.getElementById("CloverRolls").style.display = 
                         "none";
 
 
@@ -1026,6 +1030,8 @@
 
                     document.getElementById("OatmealBread").style.display = 
                         "flex";
+                    document.getElementById("CloverRolls").style.display = 
+                        "flex";
 
 
                 }
@@ -1048,6 +1054,8 @@
                         "none";
 
                     document.getElementById("OatmealBread").style.display = 
+                        "none";
+                    document.getElementById("CloverRolls").style.display = 
                         "none";
 
                 }
@@ -1074,6 +1082,9 @@
                     document.getElementById("OatmealBread").style.display = 
                         "none";
 
+                    document.getElementById("CloverRolls").style.display = 
+                        "none";
+
                 }
 
                 else if (choice==="CinnamonRolls") {
@@ -1095,6 +1106,8 @@
                         "none";
 
                     document.getElementById("OatmealBread").style.display = 
+                        "none";
+                    document.getElementById("CloverRolls").style.display = 
                         "none";
 
 
@@ -1121,6 +1134,8 @@
 
                         document.getElementById("OatmealBread").style.display = 
                         "flex";
+                        document.getElementById("CloverRolls").style.display = 
+                        "flex";
 
 
 
@@ -1146,6 +1161,8 @@
 
                         document.getElementById("OatmealBread").style.display = 
                         "none";
+                        document.getElementById("CloverRolls").style.display = 
+                        "none";
 
 
 
@@ -1170,12 +1187,14 @@
 
                         document.getElementById("OatmealBread").style.display = 
                         "flex";
+                        document.getElementById("CloverRolls").style.display = 
+                        "none";
 
                         }
 
 
 
-                else if (choice==="") {
+                else if (choice==="CloverRollsval") {
 
 
                     document.getElementById("ButterMilkPancakeWaffle").style.display = 
@@ -1188,12 +1207,14 @@
                     "none";
 
                     document.getElementById("CinnamonRolls").style.display = 
-                    "flex";
+                    "none";
 
                     document.getElementById("GarlicSwirl").style.display = 
                         "none";
 
-                        document.getElementById("OatmealBread").style.display = 
+                    document.getElementById("OatmealBread").style.display = 
+                        "none";
+                    document.getElementById("CloverRolls").style.display = 
                         "flex";
 
 

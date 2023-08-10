@@ -59,7 +59,7 @@ body {
     border:4px dotted #634005;
     border-bottom:4px dashed #634005;
     color:#0B6809;
-    background-color:#E2B059
+    background-color:#f0d7ad;
     
 
 
@@ -266,7 +266,7 @@ color:#0B6809;
 .select {
 
     color:#0B6809;
-    background-color:#E2B059 ;
+    background-color:#f0d7ad ;
     padding:10px;
     font-size:15px;
     margin-bottom:10px;
@@ -522,20 +522,11 @@ align-self:center;
 
 }
 
-#Waffles {
+
+.selectorSection {
 
 
-    
-
-
-
-}
-
-
-#FrenchToast {
-
-
-    
+    color:black;
 
 
 }
