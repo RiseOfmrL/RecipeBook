@@ -13,6 +13,18 @@
 
 }
 
+
+/*colors
+
+dark brown for text  #221704
+old green for text #0B6809
+old background color for top and bottom #a44d00
+
+
+*/
+
+
+
 .wholepage {
 
 
@@ -32,8 +44,6 @@ body {
     
     background-color:#f0d7ad;
 
-
-
 }
 
 .navbar {
@@ -44,7 +54,7 @@ body {
     position: sticky;
     top: 0;
     border: 5px dashed #a44d00;
-    background-color: #d69c38 ;
+    background-color: #f3bd5f ;
     flex-direction:column;
 
 
@@ -58,7 +68,7 @@ body {
     padding:10px;
     border:4px dotted #634005;
     border-bottom:4px dashed #634005;
-    color:#0B6809;
+    color: #221704;
     background-color:#f0d7ad;
     
 
@@ -97,7 +107,7 @@ body {
 .aboutt {
 
     font-size:20px;
-    color:#0B6809;
+    color: #221704;
     display:flex;
     margin-top:0px;
     padding:5px;
@@ -118,7 +128,7 @@ body {
 
 a {
 
-    color: #0B6809;
+    color: #221704;
 
 
 
@@ -169,7 +179,7 @@ height:400px;
 display:flex;
 width:400px;
 text-align:center;
-color:#0B6809;
+color:#221704;
 
 
 
@@ -190,7 +200,7 @@ color:#0B6809;
 display:flex;
 width:800px;
 text-align:center;
-color:#0B6809;
+color:#221704;
 
 
 
@@ -199,7 +209,7 @@ color:#0B6809;
 .bottombar {
 
 display:flex;
-background-color: #d69c38;
+background-color: #f3bd5f;
 align-content:center;
 justify-content:center;
 border:5px dashed #a44d00;
@@ -219,7 +229,7 @@ border:5px dashed #a44d00;
 
 .bottombarText {
 
-color:#0B6809;
+color:#221704;
 display:flex;
 
 
@@ -239,7 +249,7 @@ display:flex;
 
 .listitem {
 
-color:#0B6809;
+color:#221704;
 
 
 
@@ -265,7 +275,7 @@ color:#0B6809;
 
 .select {
 
-    color:#0B6809;
+    color: #634005;
     background-color:#f0d7ad ;
     padding:10px;
     font-size:15px;
@@ -325,11 +335,11 @@ color:#0B6809;
     display:flex;
     width:1000px;
     text-align: center;
-    color:#0B6809;
+    color:#221704;
     font-size:20px;
     align-self:center;
-    border:5px dotted #634005;
-    border-bottom:5px dashed #634005;
+    border:5px dotted #a44d00;
+    border-bottom:5px dashed #a44d00;
     padding:10px;
 
 
@@ -351,7 +361,7 @@ color:#0B6809;
     display:flex;
     justify-content:center;
     align-self:center;
-    color:#0B6809;
+    color:#a44d00;
     border-bottom:5px dashed#634005;
     font-size: 30px;
 
@@ -370,7 +380,7 @@ color:#0B6809;
 
     display:flex;
     flex-direction:column;
-    color:#0B6809;
+    color:#221704;
     font-size:20px;
     
 
@@ -394,7 +404,7 @@ align-self:center;
     display:flex;
     justify-content:center;
     align-self:center;
-    color:#0B6809;
+    color:#a44d00;
     border-bottom:5px dashed#634005;
     font-size: 30px;
 
@@ -416,7 +426,7 @@ align-self:center;
     flex-direction:column;
     gap:10px;
     font-size:20px;
-    color:#0B6809;
+    color:#221704;
 
 }
 
@@ -448,7 +458,7 @@ align-self:center;
 .IngredList2 {
 
     display:flex;
-    color:#0B6809;
+    color:#221704;
     font-size:20px;
     align-content:center;
     justify-content: center;;
@@ -527,6 +537,21 @@ align-self:center;
 
 
     color:black;
+
+
+}
+
+
+#BrownButterPanCookie {
+
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content: center;
+    border:5px dashed #634005;
+
+
 
 
 }

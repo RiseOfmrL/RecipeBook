@@ -38,7 +38,8 @@
                         <option style="color:black" value="BakingSweets">Baking and Sweets</option>
                         <option value="GarlicSwirlRolls">Garlic Swirl Rolls</option>
                         <option value="OatmealBread">Paul's Family Oatmeal Bread</option>
-                        <option vlaue="CloverRollsval">Great Grandma's Clover Rolls</option>
+                        <option value="CloverRollsval">Great Grandma's Clover Rolls</option>
+                        <option value="PanCookie">Giant Pan Cookie</option>
 
                     </select>
         
@@ -275,7 +276,7 @@
 
                 <p class="ingredientstitle"></p>
 
-                <div class="Ingredients">
+                <div class="ingredients">
 
                     <ul class="IngredList">
 
@@ -911,7 +912,87 @@
                                 </div>
                 
                 
-                            </div>                    
+                            </div>  
+                            
+                            
+
+                     <div id="BrownButterPanCookie">
+
+            <p class="name">Brown Butter Chocolate Chip Pan Cookie</p>
+
+            <div class="imgs">
+
+                <img class="oneimg" src="Recipes/20221026_192708.jpg">
+
+            </div>
+
+            <p class="RecipeDescription">This is a take on my sister Nicole's Brown Butter Chocolate Chip cookies that 
+                I did a couple times for desert on a family dinner night. Instead of a whole bunch of cookies I made 
+                one giant one in my cast iron skillet. It's totally worth it if you have one and are having a party or 
+                a family dinner. It's an easy desert that's fun and very tasty.
+            </p>
+
+            <div class="ingredientssec">
+
+                <p class="ingredientstitle">Ingredients</p>
+
+                <div class="ingredients">
+
+                    <ul class="IngredList">
+
+                        <li>1 Cup/227g of Unsalted Butter</li>
+                        <li>2 Cups/250g All Purpose Flour</li>
+                        <li>1 Teaspoon Baking Soda</li>
+
+                    </ul>
+
+                    <ul class="IngredList">
+
+                        <li>3/4 Teaspoon Salt</li>
+                        <li>1 Cup/215g of Dark Brown Sugar</li>
+                        <li>1 1/3 Cup/73g White Sugar</li>
+
+                    </ul>
+
+                    <ul class="IngredList">
+
+                        <li>2 Eggs</li>
+                        <li>2 Teaspoons of Vanilla Extract</li>
+                        <li>3 Cups of Dark and Semi Sweet Chocolate Chips Mixed</li>
+
+                    </ul>
+
+
+
+
+                </div>
+            </div>
+                <div class="instructions">
+
+                    <p class="instrtitle">Instructions</p>
+
+                    <div class="instructionsldiv">
+
+
+                        <ol class="instructionsList">
+
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+
+                        </ol>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
 
          <!--This is the bottom bar with information-->
          <div class="bottombar">
@@ -981,6 +1062,8 @@
                         "none";
                     document.getElementById("CloverRolls").style.display = 
                         "none";
+                        document.getElementById("BrownButterPanCookie").style.display =
+                        "none";
 
                 }
 
@@ -1004,6 +1087,8 @@
                     document.getElementById("OatmealBread").style.display = 
                         "none";
                     document.getElementById("CloverRolls").style.display = 
+                        "none";
+                        document.getElementById("BrownButterPanCookie").style.display =
                         "none";
 
 
@@ -1032,6 +1117,8 @@
                         "flex";
                     document.getElementById("CloverRolls").style.display = 
                         "flex";
+                        document.getElementById("BrownButterPanCookie").style.display =
+                        "flex";
 
 
                 }
@@ -1056,6 +1143,8 @@
                     document.getElementById("OatmealBread").style.display = 
                         "none";
                     document.getElementById("CloverRolls").style.display = 
+                        "none";
+                        document.getElementById("BrownButterPanCookie").style.display =
                         "none";
 
                 }
@@ -1084,6 +1173,8 @@
 
                     document.getElementById("CloverRolls").style.display = 
                         "none";
+                        document.getElementById("BrownButterPanCookie").style.display =
+                        "none";
 
                 }
 
@@ -1108,6 +1199,8 @@
                     document.getElementById("OatmealBread").style.display = 
                         "none";
                     document.getElementById("CloverRolls").style.display = 
+                        "none";
+                        document.getElementById("BrownButterPanCookie").style.display =
                         "none";
 
 
@@ -1136,6 +1229,8 @@
                         "flex";
                         document.getElementById("CloverRolls").style.display = 
                         "flex";
+                        document.getElementById("BrownButterPanCookie").style.display =
+                        "flex";
 
 
 
@@ -1163,6 +1258,8 @@
                         "none";
                         document.getElementById("CloverRolls").style.display = 
                         "none";
+                        document.getElementById("BrownButterPanCookie").style.display =
+                        "none";
 
 
 
@@ -1189,33 +1286,72 @@
                         "flex";
                         document.getElementById("CloverRolls").style.display = 
                         "none";
+                        document.getElementById("BrownButterPanCookie").style.display =
+                        "none";
 
                         }
 
 
+                    else if (choice==="CloverRollsval") {
 
-                else if (choice==="CloverRollsval") {
-
-
-                    document.getElementById("ButterMilkPancakeWaffle").style.display = 
-                    "none";
-
-                    document.getElementById("ButterMilkReplacement").style.display = 
-                    "none";
-
-                    document.getElementById("FrenchToast").style.display = 
-                    "none";
-
-                    document.getElementById("CinnamonRolls").style.display = 
-                    "none";
-
-                    document.getElementById("GarlicSwirl").style.display = 
+                        document.getElementById("ButterMilkPancakeWaffle").style.display = 
                         "none";
 
-                    document.getElementById("OatmealBread").style.display = 
+                        document.getElementById("ButterMilkReplacement").style.display = 
                         "none";
-                    document.getElementById("CloverRolls").style.display = 
+
+                        document.getElementById("FrenchToast").style.display = 
+                        "none";
+
+                        document.getElementById("CinnamonRolls").style.display = 
+                        "none";
+
+                        document.getElementById("GarlicSwirl").style.display = 
+                        "none";
+
+                        document.getElementById("OatmealBread").style.display = 
+                        "none";
+                        document.getElementById("CloverRolls").style.display = 
                         "flex";
+                        document.getElementById("BrownButterPanCookie").style.display =
+                        "none";
+
+                        }
+
+
+                    else if (choice==="PanCookie") {
+
+
+                        document.getElementById("ButterMilkPancakeWaffle").style.display = 
+                        "none";
+
+                        document.getElementById("ButterMilkReplacement").style.display = 
+                        "none";
+
+                        document.getElementById("FrenchToast").style.display = 
+                        "none";
+
+                        document.getElementById("CinnamonRolls").style.display = 
+                        "none";
+
+                        document.getElementById("GarlicSwirl").style.display = 
+                        "none";
+
+                        document.getElementById("OatmealBread").style.display = 
+                        "none";
+                        document.getElementById("CloverRolls").style.display = 
+                        "none";
+
+                        document.getElementById("BrownButterPanCookie").style.display =
+                        "flex";
+
+
+
+
+
+
+
+
 
 
                     }
