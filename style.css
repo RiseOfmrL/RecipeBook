@@ -292,7 +292,7 @@ color:#221704;
     justify-content:center;
     align-content: center;
     border:5px dashed #634005;
-
+    background: url(Recipes/background_recipes.png) right top repeat-y, url(Recipes/background_recipes.png) left top repeat-y;
 
 
 }
