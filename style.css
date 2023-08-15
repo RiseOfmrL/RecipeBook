@@ -572,3 +572,44 @@ align-self:center;
 
 
 }
+
+.selectors {
+
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:2%;
+
+
+
+}
+
+.bothsides {
+
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:2%;
+    background: url(Recipes/background_recipes_3.png) right top repeat-y, url(Recipes/background_recipes_3.png) left top repeat-y;
+    font-size:20px;
+
+}
+
+.myRecipes {
+
+    display:flex;
+    width:15%;
+    border:5px dashed #634005;
+
+
+}
+
+.friendsRecipes {
+
+
+    display:flex;
+    width:15%;
+    border:5px dashed #634005;
+
+}
