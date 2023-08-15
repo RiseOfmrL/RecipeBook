@@ -47,7 +47,7 @@
                     <div class="selector">
                         <select class="select">
                             <option value="All">Select A Category</option>
-                            <option value="Breakfast">Breakfast</option>
+                            <option value="BreakFast">Breakfast</option>
                             <option value="Baking">Baking</option>
                         </select>
             
@@ -101,14 +101,14 @@
 
                     <ul class="tocList">
 
-                        <li><a class="links" class="recipes" href="My_Recipes.html#ButterMilkPancakeWaffle">Buttermilk Waffles or Pancakes</a></li>
-                        <li><a class="links" class="recipes" href="My_Recipes.html#ButterMilkReplacement">Buttermilk Replacement</a></li>
-                        <li><a class="links" class="recipes" href="My_Recipes.html#FrenchToast">French Toast</a></li>
-                        <li><a class="links" class="recipes" href="My_Recipes.html#CinnamonRolls">CinnamonRolls</a></li>
-                        <li><a class="links" class="recipes" href="My_Recipes.html#GarlicSwirl">Garlic Swirl Rolls</a></li>
-                        <li><a class="links" class="recipes" href="My_Recipes.html#OatmealBread">Oatmeal Bread</a></li>
-                        <li><a class="links" class="recipes" href="My_Recipes.html#CloverRolls">Great Grandma's Clover Rolls</a></li>
-                        <li><a class="links" class="recipes" href="My_Recipes.html#BrownButterPanCookie">Giant Brown Butter Pan Cookie</a></li>
+                        <li><a class="links" class="recipes" class="Breakfast" href="My_Recipes.html#ButterMilkPancakeWaffle">Buttermilk Waffles or Pancakes</a></li>
+                        <li><a class="links" class="recipes" class="Breakfast" href="My_Recipes.html#ButterMilkReplacement">Buttermilk Replacement</a></li>
+                        <li><a class="links" class="recipes" class="Breakfast" href="My_Recipes.html#FrenchToast">French Toast</a></li>
+                        <li><a class="links" class="recipes" class="Breakfast" class="BakingSweet" href="My_Recipes.html#CinnamonRolls">CinnamonRolls</a></li>
+                        <li><a class="links" class="recipes" class="BakingSweet" href="My_Recipes.html#GarlicSwirl">Garlic Swirl Rolls</a></li>
+                        <li><a class="links" class="recipes" class="BakingSweet" href="My_Recipes.html#OatmealBread">Oatmeal Bread</a></li>
+                        <li><a class="links" class="recipes" class="BakingSweet" href="My_Recipes.html#CloverRolls">Great Grandma's Clover Rolls</a></li>
+                        <li><a class="links" class="recipes" class="BakingSweet" href="My_Recipes.html#BrownButterPanCookie">Giant Brown Butter Pan Cookie</a></li>
                         <li><a class="links" class="recipes" href="My_Recipes.html#marinara">Marinara Sauce</a></li>
                         <li><a class="links" class="recipes" href="My_Recipes.html#"></a></li>
 
@@ -147,7 +147,35 @@
 
                 </div>
             </div>
+              <!--This is the bottom bar with information-->
+        <div class="bottombar">
 
+            <div class="leftsidebottom">
+                <p class="bottombarText">This website was made by Paul and his friend's recipes. It includes recipes
+                    that we find to be the best or ones that we've made ourselves. We hope you enjoy.
+                </p>
+                <p class="bottombarText">Thanks for looking at our recipes and know that you're amazing and we all wish
+                    you a good day.
+                </p>
+            </div>
+
+            <div class="rightsidebottom">
+
+                <p class="bottombarText">Contributors/Special People</p>
+                <ul class="bottomlist">
+
+                    <li class="listitem">My Dad</li>
+                    <li class="listitem">My Sister</li>
+                    <li class="listitem">Snoopy</li>
+                    <li class="listitem">Suncore</li>
+                    <li class="listitem">My Mom and Paul</li>
+
+                </ul>
+
+
+
+            </div>
+        </div>
 
     </div>
 
@@ -213,7 +241,18 @@ const select = document.querySelector("select");
 
 
                 
+                    else if (choice==="BreakFast") {
 
+                        document.getElementsByClassName("Breakfast").style.display = 
+                        "flex";
+
+                        document.getElementsByClassName("BakingSweet").style.display = 
+                        "none"
+
+
+
+
+                    }
 
             }
 </script>
