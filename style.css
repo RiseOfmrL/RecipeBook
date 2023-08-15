@@ -596,23 +596,25 @@ align-self:center;
 
 }
 
-.myRecipes {
+#myRecipes {
 
     display:flex;
     width:15%;
     border:5px dashed #634005;
     padding:20px;
+    flex-direction: column;
 
 
 }
 
-.friendsRecipes {
+#friendsRecipes {
 
 
     display:flex;
     width:15%;
     border:5px dashed #634005;
     padding:20px;
+    flex-direction: column;
 
 }
 

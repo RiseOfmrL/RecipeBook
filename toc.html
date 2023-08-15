@@ -35,8 +35,8 @@
                     <div class="selector">
                         <select class="select">
                             <option value="None">My or Friend's Recipes</option>
-                            <option value="Breakfast">My Recipes</option>
-                            <option value="Baking">Friend's Recipes</option>
+                            <option value="MyRecipes">My Recipes</option>
+                            <option value="FriendsRecipes">Friend's Recipes</option>
                         </select>
             
 
@@ -46,7 +46,7 @@
 
                     <div class="selector">
                         <select class="select">
-                            <option value="None">Select A Category</option>
+                            <option value="All">Select A Category</option>
                             <option value="Breakfast">Breakfast</option>
                             <option value="Baking">Baking</option>
                         </select>
@@ -95,11 +95,13 @@
 
             <div class="bothsides">
 
-                <div class="myRecipes">
+                <div id="myRecipes">
+
+                    <p class="RecipeTitle">My Recipes:</p>
 
                     <ul class="tocList">
 
-                        <li><a class="links" class="recipes" href="My_Recipes.html#ButterMilkPancakeWaffle">Butter Milk Waffles or Pancakes</a></li>
+                        <li><a class="links" class="recipes" href="My_Recipes.html#ButterMilkPancakeWaffle">Buttermilk Waffles or Pancakes</a></li>
                         <li><a class="links" class="recipes" href="My_Recipes.html#ButterMilkReplacement">Buttermilk Replacement</a></li>
                         <li><a class="links" class="recipes" href="My_Recipes.html#FrenchToast">French Toast</a></li>
                         <li><a class="links" class="recipes" href="My_Recipes.html#CinnamonRolls">CinnamonRolls</a></li>
@@ -119,21 +121,22 @@
 
                 </div>
 
-                <div class="friendsRecipes">
+                <div id="friendsRecipes">
 
+                    <p class="RecipeTitle">Friend's Recipes:</p>
 
                     <ul class="tocList">
 
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li><a class="links" class="recipes" href=""></a></li>
+                        <li><a class="links" class="recipes" href=""></a></li>
+                        <li><a class="links" class="recipes" href=""></a></li>
+                        <li><a class="links" class="recipes" href=""></a></li>
+                        <li><a class="links" class="recipes" href=""></a></li>
+                        <li><a class="links" class="recipes" href=""></a></li>
+                        <li><a class="links" class="recipes" href=""></a></li>
+                        <li><a class="links" class="recipes" href=""></a></li>
+                        <li><a class="links" class="recipes" href=""></a></li>
+                        <li><a class="links" class="recipes" href=""></a></li>
 
 
 
@@ -155,7 +158,65 @@
 </body>
 
 
+<script>
 
+const select = document.querySelector("select");
+            const para = document.querySelector("p")
+            const img = document.querySelector("image")
+
+            select.addEventListener("change" , setRecipe);
+
+            function setRecipe () {
+
+                const choice = select.value;
+
+
+                if (choice==="MyRecipes") {
+
+                    document.getElementById("friendsRecipes").style.display = 
+                    "none";
+
+                    document.getElementById("myRecipes").style.display = 
+                    "flex";
+
+
+
+
+                }
+
+
+                else if (choice==="FriendsRecipes") {
+
+                    document.getElementById("friendsRecipes").style.display = 
+                    "flex";
+
+                    document.getElementById("myRecipes").style.display = 
+                    "none";
+
+
+
+
+                    }
+
+                    else if (choice==="None") {
+
+                        document.getElementById("friendsRecipes").style.display = 
+                        "flex";
+
+                        document.getElementById("myRecipes").style.display = 
+                        "flex";
+
+
+
+
+                    }
+
+
+                
+
+
+            }
+</script>
 
 
 
