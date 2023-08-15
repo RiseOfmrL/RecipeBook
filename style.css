@@ -601,6 +601,7 @@ align-self:center;
     display:flex;
     width:15%;
     border:5px dashed #634005;
+    padding:20px;
 
 
 }
@@ -611,5 +612,25 @@ align-self:center;
     display:flex;
     width:15%;
     border:5px dashed #634005;
+    padding:20px;
+
+}
+
+.recipes {
+
+    margin-top:10px;
+    display:flex;
+
+
+
+}
+
+.tocList {
+
+
+    display:flex;
+    flex-direction:column; 
+    gap:30px;
+
 
 }
