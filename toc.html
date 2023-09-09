@@ -31,18 +31,7 @@
                 <p class="navitem"><a class=links href="thanks.html">Special Thanks</a></p>
             </div>
 
-                <div class="selectors">       
-                    <div class="selector">
-                        <select class="select">
-                            <option value="None">My or Friend's Recipes</option>
-                            <option value="MyRecipes">My Recipes</option>
-                            <option value="FriendsRecipes">Friend's Recipes</option>
-                        </select>
-            
-
-                    </div>
-
-
+                <div class="selectors">    
 
                     <div class="selector">
                         <select class="select">
@@ -99,23 +88,23 @@
 
                     <p class="RecipeTitle">My Recipes:</p>
 
-                    <ul class="tocList">
+                    <div class="tocList">
 
-                        <li><a class="links" class="recipes" class="Breakfast" href="My_Recipes.html#ButterMilkPancakeWaffle">Buttermilk Waffles or Pancakes</a></li>
-                        <li><a class="links" class="recipes" class="Breakfast" href="My_Recipes.html#ButterMilkReplacement">Buttermilk Replacement</a></li>
-                        <li><a class="links" class="recipes" class="Breakfast" href="My_Recipes.html#FrenchToast">French Toast</a></li>
-                        <li><a class="links" class="recipes" class="Breakfast" class="BakingSweet" href="My_Recipes.html#CinnamonRolls">CinnamonRolls</a></li>
-                        <li><a class="links" class="recipes" class="BakingSweet" href="My_Recipes.html#GarlicSwirl">Garlic Swirl Rolls</a></li>
-                        <li><a class="links" class="recipes" class="BakingSweet" href="My_Recipes.html#OatmealBread">Oatmeal Bread</a></li>
-                        <li><a class="links" class="recipes" class="BakingSweet" href="My_Recipes.html#CloverRolls">Great Grandma's Clover Rolls</a></li>
-                        <li><a class="links" class="recipes" class="BakingSweet" href="My_Recipes.html#BrownButterPanCookie">Giant Brown Butter Pan Cookie</a></li>
-                        <li><a class="links" class="recipes" href="My_Recipes.html#marinara">Marinara Sauce</a></li>
-                        <li><a class="links" class="recipes" href="My_Recipes.html#"></a></li>
-
-
+                        <p id="MyPancakes" class="Breakfast"><a class="links" class="recipes"  href="My_Recipes.html#ButterMilkPancakeWaffle">Buttermilk Waffles or Pancakes</a></p>
+                        <p id="MyButterMilk" class="Breakfast"><a class="links" class="recipes" href="My_Recipes.html#ButterMilkReplacement">Buttermilk Replacement</a></p>
+                        <p id="MyFrenchToast" class="Breakfast"><a class="links" class="recipes"  href="My_Recipes.html#FrenchToast">French Toast</a></p>
+                        <p id="MyCinnamon" class="Breakfast"><a class="links" class="recipes"   href="My_Recipes.html#CinnamonRolls">CinnamonRolls</a></p>
+                        <p id="MyGarlic"><a class="links" class="recipes"  href="My_Recipes.html#GarlicSwirl">Garlic Swirl Rolls</a></p>
+                        <p id="MyOatmeal"class="BakingSweet"><a class="links" class="recipes"  href="My_Recipes.html#OatmealBread">Oatmeal Bread</a></p>
+                        <p id="MyClover" class="BakingSweet"><a class="links" class="recipes"  href="My_Recipes.html#CloverRolls">Great Grandma's Clover Rolls</a></p>
+                        <p id="MyPanCookie"><a class="links" class="recipes"  href="My_Recipes.html#BrownButterPanCookie">Giant Brown Butter Pan Cookie</a></p>
+                        <p id="MyMarinara"><a class="links" class="recipes" href="My_Recipes.html#marinara">Marinara Sauce</a></p>
+                        <p id="My"><a class="links" class="recipes" href="My_Recipes.html#"></a></p>
 
 
-                    </ul>
+
+
+                    </div>
 
 
 
@@ -125,23 +114,23 @@
 
                     <p class="RecipeTitle">Friend's Recipes:</p>
 
-                    <ul class="tocList">
+                    <div class="tocList">
 
-                        <li><a class="links" class="recipes" href=""></a></li>
-                        <li><a class="links" class="recipes" href=""></a></li>
-                        <li><a class="links" class="recipes" href=""></a></li>
-                        <li><a class="links" class="recipes" href=""></a></li>
-                        <li><a class="links" class="recipes" href=""></a></li>
-                        <li><a class="links" class="recipes" href=""></a></li>
-                        <li><a class="links" class="recipes" href=""></a></li>
-                        <li><a class="links" class="recipes" href=""></a></li>
-                        <li><a class="links" class="recipes" href=""></a></li>
-                        <li><a class="links" class="recipes" href=""></a></li>
-
-
+                        <p><a class="links" class="recipes" href=""></a></p>
+                        <p><a class="links" class="recipes" href=""></a></p>
+                        <p><a class="links" class="recipes" href=""></a></p>
+                        <p><a class="links" class="recipes" href=""></a></p>
+                        <p><a class="links" class="recipes" href=""></a></p>
+                        <p><a class="links" class="recipes" href=""></a></p>
+                        <p><a class="links" class="recipes" href=""></a></p>
+                        <p><a class="links" class="recipes" href=""></a></p>
+                        <p><a class="links" class="recipes" href=""></a></p>
+                        <p><a class="links" class="recipes" href=""></a></p>
 
 
-                    </ul>
+
+
+                    </div>
 
 
 
@@ -194,46 +183,85 @@ const select = document.querySelector("select");
 
             select.addEventListener("change" , setRecipe);
 
+            const breakfast =  document.getElementsByClassName("Breakfast")
+            console.log(breakfast)
+
             function setRecipe () {
 
                 const choice = select.value;
 
 
-                if (choice==="MyRecipes") {
+                if (choice==="BreakFast") {
 
-                    document.getElementById("friendsRecipes").style.display = 
-                    "none";
-
-                    document.getElementById("myRecipes").style.display = 
-                    "flex";
-
+                    document.getElementById("MyPancakes").style.display = 
+                        "flex"
+                    document.getElementById("MyButterMilk").style.display = 
+                        "flex"
+                    document.getElementById("MyFrenchToast").style.display = 
+                        "flex"
+                    document.getElementById("MyCinnamon").style.display = 
+                        "flex"
+                    document.getElementById("MyGarlic").style.display = 
+                        "none"
+                    document.getElementById("MyOatmeal").style.display = 
+                        "none"
+                    document.getElementById("MyClover").style.display = 
+                        "none"
+                    document.getElementById("MyPanCookie").style.display = 
+                        "none"
+                    document.getElementById("MyMarinara").style.display = 
+                        "none"
 
 
 
                 }
 
 
-                else if (choice==="FriendsRecipes") {
+                else if (choice==="Baking") {
 
-                    document.getElementById("friendsRecipes").style.display = 
-                    "flex";
+                    document.getElementById("MyPancakes").style.display = 
+                        "none"
+                    document.getElementById("MyButterMilk").style.display = 
+                        "none"
+                    document.getElementById("MyFrenchToast").style.display = 
+                        "none"
+                    document.getElementById("MyCinnamon").style.display = 
+                        "flex"
+                    document.getElementById("MyGarlic").style.display = 
+                        "flex"
+                    document.getElementById("MyOatmeal").style.display = 
+                        "flex"
+                    document.getElementById("MyClover").style.display = 
+                        "flex"
+                    document.getElementById("MyPanCookie").style.display = 
+                        "flex"
+                    document.getElementById("MyMarinara").style.display = 
+                        "none"
 
-                    document.getElementById("myRecipes").style.display = 
-                    "none";
-
-
-
+                 
 
                     }
 
-                    else if (choice==="None") {
+                    else if (choice==="All") {
 
-                        document.getElementById("friendsRecipes").style.display = 
-                        "flex";
-
-                        document.getElementById("myRecipes").style.display = 
-                        "flex";
-
+                        document.getElementById("MyPancakes").style.display = 
+                        "flex"
+                    document.getElementById("MyButterMilk").style.display = 
+                        "flex"
+                    document.getElementById("MyFrenchToast").style.display = 
+                        "flex"
+                    document.getElementById("MyCinnamon").style.display = 
+                        "flex"
+                    document.getElementById("MyGarlic").style.display = 
+                        "flex"
+                    document.getElementById("MyOatmeal").style.display = 
+                        "flex"
+                    document.getElementById("MyClover").style.display = 
+                        "flex"
+                    document.getElementById("MyPanCookie").style.display = 
+                        "flex"
+                    document.getElementById("MyMarinara").style.display = 
+                        "flex"
 
 
 
@@ -241,20 +269,14 @@ const select = document.querySelector("select");
 
 
                 
-                    else if (choice==="BreakFast") {
+                   
 
-                        document.getElementsByClassName("Breakfast").style.display = 
-                        "flex";
-
-                        document.getElementsByClassName("BakingSweet").style.display = 
-                        "none"
-
-
-
-
-                    }
+                    
 
             }
+
+
+
 </script>
 
 
