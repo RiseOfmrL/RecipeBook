@@ -38,6 +38,7 @@
                             <option value="All">Select A Category</option>
                             <option value="BreakFast">Breakfast</option>
                             <option value="Baking">Baking</option>
+                            <option value="Italian">Italian Food</option>
                         </select>
             
         
@@ -99,7 +100,7 @@
                         <p id="MyClover" class="BakingSweet"><a class="links" class="recipes"  href="My_Recipes.html#CloverRolls">Great Grandma's Clover Rolls</a></p>
                         <p id="MyPanCookie"><a class="links" class="recipes"  href="My_Recipes.html#BrownButterPanCookie">Giant Brown Butter Pan Cookie</a></p>
                         <p id="MyMarinara"><a class="links" class="recipes" href="My_Recipes.html#marinara">Marinara Sauce</a></p>
-                        <p id="My"><a class="links" class="recipes" href="My_Recipes.html#"></a></p>
+                        <p id="MyPizza"><a class="links" class="recipes" href="My_Recipes.html#Pizza">Pizza</a></p>
 
 
 
@@ -211,6 +212,8 @@ const select = document.querySelector("select");
                         "none"
                     document.getElementById("MyMarinara").style.display = 
                         "none"
+                        document.getElementById("MyPizza").style.display = 
+                        "none"
 
 
 
@@ -237,6 +240,8 @@ const select = document.querySelector("select");
                         "flex"
                     document.getElementById("MyMarinara").style.display = 
                         "none"
+                        document.getElementById("MyPizza").style.display = 
+                        "none"
 
                  
 
@@ -262,16 +267,40 @@ const select = document.querySelector("select");
                         "flex"
                     document.getElementById("MyMarinara").style.display = 
                         "flex"
+                        document.getElementById("MyPizza").style.display = 
+                        "flex"
 
 
 
                     }
 
 
-                
+                    else if (choice==="Italian") {
+
+                    document.getElementById("MyPancakes").style.display = 
+                        "none"
+                    document.getElementById("MyButterMilk").style.display = 
+                        "none"
+                    document.getElementById("MyFrenchToast").style.display = 
+                        "none"
+                    document.getElementById("MyCinnamon").style.display = 
+                        "none"
+                    document.getElementById("MyGarlic").style.display = 
+                        "none"
+                    document.getElementById("MyOatmeal").style.display = 
+                        "none"
+                    document.getElementById("MyClover").style.display = 
+                        "none"
+                    document.getElementById("MyPanCookie").style.display = 
+                        "none"
+                    document.getElementById("MyMarinara").style.display = 
+                        "flex"
+                    document.getElementById("MyPizza").style.display = 
+                        "flex"
+
                    
 
-                    
+                    }
 
             }
 
