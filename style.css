@@ -600,6 +600,21 @@ align-self:center;
 
 }
 
+#FrenchOnion
+
+{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content: center;
+    border:5px dashed #634005;
+    background: url(Recipes/background_recipes_3.png) right top repeat-y, url(Recipes/background_recipes_3.png) left top repeat-y;
+
+
+
+}
+
 .selectors {
 
 
