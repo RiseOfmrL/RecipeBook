@@ -261,7 +261,8 @@ color:#221704;
 
     display:flex;
     justify-content:center;
-    gap:20px;
+    gap:1vh;
+    margin-top:-5px;
 
 }
 
@@ -278,9 +279,9 @@ color:#221704;
 
     color: #634005;
     background-color:#f0d7ad ;
-    padding:10px;
-    font-size:15px;
-    margin-bottom:10px;
+    padding:1vw;
+    font-size:1vw;
+    margin-bottom:1vh;
     text-align:center;
     border:2px dashed #634005;
 
@@ -302,7 +303,7 @@ color:#221704;
 
     display:flex;
     align-self:center;
-    font-size:50px;
+    font-size:3vw;
     font-weight:800;
     color:#a44d00;
     border-bottom:5px dashed #634005;
@@ -315,7 +316,7 @@ color:#221704;
 
     display:flex;
     justify-content:center;
-    gap:20px;
+    gap:1vw;
 
 
 }
@@ -324,8 +325,8 @@ color:#221704;
 
 
     display:flex;
-    width:500px;
-    height:500px;
+    width:25vw;
+    height:40vh;
 
 
 }
@@ -334,10 +335,10 @@ color:#221704;
 
 
     display:flex;
-    width:1000px;
+    width:50vw;
     text-align: center;
     color:#221704;
-    font-size:20px;
+    font-size:1vw;
     align-self:center;
     border:5px dotted #a44d00;
     border-bottom:5px dashed #a44d00;
@@ -352,7 +353,7 @@ color:#221704;
     flex-direction:column;
     border:5px dashed #a44d00;
     margin:20px;
-    width:1200px;
+    width:50vw;
     align-self:center;
 
 }
@@ -364,7 +365,7 @@ color:#221704;
     align-self:center;
     color:#a44d00;
     border-bottom:5px dashed#634005;
-    font-size: 30px;
+    font-size: 2vw;
 
 }
 
@@ -382,7 +383,7 @@ color:#221704;
     display:flex;
     flex-direction:column;
     color:#221704;
-    font-size:20px;
+    font-size:1vw;
     
 
 }
@@ -394,7 +395,7 @@ flex-direction:column;
 border:5px dashed #a44d00;
 margin:20px;
 padding:10px;
-width:1200px;
+width:50vw;
 align-self:center;
 
 
@@ -407,7 +408,7 @@ align-self:center;
     align-self:center;
     color:#a44d00;
     border-bottom:5px dashed#634005;
-    font-size: 30px;
+    font-size: 2vw;
 
 
 
@@ -425,8 +426,8 @@ align-self:center;
 
     display:flex;
     flex-direction:column;
-    gap:10px;
-    font-size:20px;
+    gap:1vh;
+    font-size:1vw;
     color:#221704;
 
 }
@@ -448,8 +449,8 @@ align-self:center;
 .oneimg {
 
     display:flex;
-    width:600px;
-    height:600px;
+    width:40vw;
+    height:60vh;
 
 
 
@@ -463,7 +464,7 @@ align-self:center;
     font-size:20px;
     align-content:center;
     justify-content: center;;
-    gap:40px;
+    gap:1vw;
     
 
 
@@ -663,7 +664,7 @@ align-self:center;
     align-items:center;
     gap:2%;
     background: url(Recipes/background_recipes_3.png) right top repeat-y, url(Recipes/background_recipes_3.png) left top repeat-y;
-    font-size:20px;
+    font-size:1vw;
 
 }
 
@@ -672,7 +673,7 @@ align-self:center;
     display:flex;
     width:15%;
     border:5px dashed #634005;
-    padding:20px;
+    padding:1vw;
     flex-direction: column;
 
 
@@ -684,7 +685,7 @@ align-self:center;
     display:flex;
     width:15%;
     border:5px dashed #634005;
-    padding:20px;
+    padding:1vw;
     flex-direction: column;
 
 }
