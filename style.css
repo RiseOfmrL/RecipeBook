@@ -1,6 +1,6 @@
 #title {
 
-    font-size:60px;
+    font-size:4vw;
     font-weight:800;
     color: #a44d00;
     display:flex;
@@ -8,6 +8,7 @@
     align-self:center;
     width:60%;
     border-bottom:10px dashed #634005;
+    text-align: center;
 
 
 
@@ -32,7 +33,7 @@ old background color for top and bottom #a44d00
     flex-direction:column;
     justify-content:center;
     align-content:center;
-    gap:20px;
+    gap:5vh;
 
 
 
@@ -49,7 +50,7 @@ body {
 .navbar {
 
     display:flex;
-    gap:10px;
+    gap:5vw;
     justify-content:center;
     position: sticky;
     top: 0;
@@ -65,7 +66,7 @@ body {
 
 
     display:flex;
-    padding:10px;
+    padding:1vw;
     border:4px dotted #634005;
     border-bottom:4px dashed #634005;
     color: #221704;
@@ -79,7 +80,7 @@ body {
 
     border:5px dotted #634005;
     border-bottom:5px dashed #634005;
-    width:800px;
+    width:45vw;
     display:flex;
     flex-direction:column;
     align-self:center;
@@ -93,7 +94,7 @@ body {
 .about {
 
     font-weight:700;
-    font-size:25px;
+    font-size:1vw;
     color:#a44d00;
     display:flex;
     padding:5px;
@@ -106,7 +107,7 @@ body {
 
 .aboutt {
 
-    font-size:20px;
+    font-size:1vw;
     color: #221704;
     display:flex;
     margin-top:0px;
@@ -144,7 +145,7 @@ a:hover {
 .imagerow {
 
 display:flex;
-gap:20px;
+gap:1vw;
 justify-content:center;
 
 
@@ -164,8 +165,8 @@ justify-content:center;
 .image {
 
 display:flex;
-width:400px;
-height:400px;
+width:20vw;
+height:35vh;
 
 
 
@@ -177,7 +178,7 @@ height:400px;
 
 
 display:flex;
-width:400px;
+width:20vw;
 text-align:center;
 color:#221704;
 
@@ -190,7 +191,7 @@ color:#221704;
 .rolls {
 
     display:flex;
-    gap:20px;
+    gap:1vw;
 
     
 }
@@ -198,7 +199,7 @@ color:#221704;
 .imgdesccom {
 
 display:flex;
-width:800px;
+width:40vw;
 text-align:center;
 color:#221704;
 
